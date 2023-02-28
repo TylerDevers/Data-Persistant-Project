@@ -1269,6 +1269,10 @@ PrefabInstance:
       propertyPath: GameOverText
       value: 
       objectReference: {fileID: 474497238}
+    - target: {fileID: 6641229152293896840, guid: 63ff5af9f27d20444bbfb9efe51b3b45, type: 3}
+      propertyPath: HighScoreText
+      value: 
+      objectReference: {fileID: 2078529056}
     - target: {fileID: 6641229152293896842, guid: 63ff5af9f27d20444bbfb9efe51b3b45, type: 3}
       propertyPath: m_Name
       value: MainManager
@@ -1331,7 +1335,7 @@ GameObject:
   - component: {fileID: 2078529057}
   - component: {fileID: 2078529056}
   m_Layer: 5
-  m_Name: ScoreText (1)
+  m_Name: HighScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

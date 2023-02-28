@@ -10,13 +10,13 @@ using UnityEditor;
 
 public class UIHandler : MonoBehaviour
 {
-    public GameObject playerName;
     public InputField inputField;
-    public Text text;
+    public Text text, ScoreText;
 
     // Start is called before the first frame update
     void Start()
     {
+        ScoreText.text = "High Score: " + GameManager.Instance.HighestScorer + " : " + GameManager.Instance.HighScore;
     }
 
     // Update is called once per frame
