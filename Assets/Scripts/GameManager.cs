@@ -7,8 +7,8 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager Instance;
-    public string playerName = "Player";
-
+    public string PlayerName = "default";
+    public int HighScore;
 
     private void Awake() {
         // singleton, ensures only one instance exists.
